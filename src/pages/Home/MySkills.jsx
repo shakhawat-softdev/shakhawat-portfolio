@@ -6,22 +6,19 @@ import firebse from '../../../src/assets/img/skills/firebse.png'
 import react from '../../../src/assets/img/skills/react.png'
 import Node from '../../../src/assets/img/skills/nodejs.png'
 import mongoDB from '../../../src/assets/img/skills/mongoDB.png'
+import tailwind from '../../../src/assets/img/skills/tailwind.png'
+import express from '../../../src/assets/img/skills/express.png'
+import git from '../../../src/assets/img/skills/git.png'
+import vercel from '../../../src/assets/img/skills/vercel.png'
 
 import Slide from 'react-reveal/Slide';
 
 const MySkills = () => {
    return (
-      <div id='skills'>
+      <div id='skills' className=''>
          <h2 className="text-center text-white text-3xl border-y-2 border-yellow-600 w-1/2 mx-auto p-3 my-16">Technical Skills</h2>
 
-         <div className=' flex flex-col md:flex-row gap-3 justify-center items-center'>
-
-            {/* <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
-               <figure className="p-5">
-                  <img src={html} alt="Shoes" className="rounded-xl" />
-               </figure>
-               <h2 className="card-title mx-auto mb-4">HTML</h2>
-            </div> */}
+         <div className='md:w-[800px] grid grid-cols-2 md:grid-cols-6 gap-3 place-items-center mx-auto'>
 
             <Slide right>
                <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
@@ -39,6 +36,7 @@ const MySkills = () => {
                   <h2 className="card-title mx-auto mb-4">CSS</h2>
                </div>
             </Slide>
+
             <Slide right>
                <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
                   <figure className="p-5">
@@ -47,6 +45,15 @@ const MySkills = () => {
                   <h2 className="card-title mx-auto mb-4">Bootstrap</h2>
                </div>
             </Slide>
+            <Slide right>
+               <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
+                  <figure className="p-5">
+                     <img src={tailwind} alt="Shoes" className="rounded-xl" />
+                  </figure>
+                  <h2 className="card-title mx-auto mb-4">Tailwind</h2>
+               </div>
+            </Slide>
+
             <Slide right>
                <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
                   <figure className="p-5">
@@ -71,6 +78,7 @@ const MySkills = () => {
                   <h2 className="card-title mx-auto mb-4">React JS</h2>
                </div>
             </Slide>
+
             <Slide left>
                <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
                   <figure className="p-5">
@@ -82,9 +90,34 @@ const MySkills = () => {
             <Slide left>
                <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
                   <figure className="p-5">
+                     <img src={express} alt="Shoes" className="rounded-xl" />
+                  </figure>
+                  <h2 className="card-title mx-auto mb-4">Express JS</h2>
+               </div>
+            </Slide>
+
+            <Slide left>
+               <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
+                  <figure className="p-5">
                      <img src={mongoDB} alt="Shoes" className="rounded-xl" />
                   </figure>
                   <h2 className="card-title mx-auto mb-4">MongoDB</h2>
+               </div>
+            </Slide>
+            <Slide left>
+               <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
+                  <figure className="p-5">
+                     <img src={git} alt="Shoes" className="rounded-xl" />
+                  </figure>
+                  <h2 className="card-title mx-auto mb-4">Git</h2>
+               </div>
+            </Slide>
+            <Slide left>
+               <div className="card w-32 bg-primary hover:bg-secondary  text-primary-content rounded-md">
+                  <figure className="p-5">
+                     <img src={vercel} alt="Shoes" className="rounded-xl" />
+                  </figure>
+                  <h2 className="card-title mx-auto mb-4">Vercel</h2>
                </div>
             </Slide>
 
