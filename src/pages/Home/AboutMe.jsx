@@ -16,7 +16,7 @@ const AboutMe = () => {
    });
 
    return (
-      <div id='about my-16'>
+      <div id='about'>
          <h2 className="text-center text-white text-3xl border-y-2 border-yellow-600 w-1/2 mx-auto p-3 my-16">About Me</h2>
 
          <div className="w-full md:flex">

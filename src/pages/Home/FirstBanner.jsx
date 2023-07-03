@@ -19,7 +19,7 @@ const FirstBanner = () => {
    return (
       <div className="w-full md:flex m-auto">
 
-         <div className="w-1/2 text-white m-auto text-center space-y-3 mb-10 md:mb-auto" >
+         <div id='resume' className="w-1/2 text-white m-auto text-center space-y-3 mb-10 md:mb-auto" >
             <h2 className='text-2xl md:text-4xl d-inline-block mb-2 hidden md:contents'>Hi,
                <br /> I'm SM Shakhawat Hosen <br /></h2>
 
