@@ -18,7 +18,7 @@ const Navbar = () => {
          <>
             <Link to={'/'}><li className='hover:bg-cyan-700 rounded-lg'><a >Home</a></li></Link>
             <li className='hover:bg-cyan-700 rounded-lg'><a href="#about">About Me</a></li>
-            <li className='hover:bg-cyan-700 rounded-lg'><a href='../../../public/resume.pdf' target='_blank'>Resume</a></li>
+            <Link to={'https://drive.google.com/file/d/123kMyVaPKuyxBwP_6BN6KquKZOXtu9iH/view?usp=drive_link'} > <li className='hover:bg-cyan-700 rounded-lg'><a >Resume</a></li></Link>
             <li className='hover:bg-cyan-700 rounded-lg'><a href="#skills">Skills</a></li>
             <li className='hover:bg-cyan-700 rounded-lg'><a href="#projects">Projects</a></li>
          </>}

@@ -6,6 +6,8 @@ import { Player } from '@lottiefiles/react-lottie-player';
 const Contract = () => {
 
    const handleSubmit = (event) => {
+      // event.preventDefault();
+
       const form = event.target;
       Swal.fire({
          position: 'center',

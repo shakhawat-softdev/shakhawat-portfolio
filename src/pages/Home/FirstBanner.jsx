@@ -50,7 +50,10 @@ const FirstBanner = () => {
             <br />
             {/* <button onClick={handleDownload} className="btn btn-secondary btn-sm btn-wide">Get Resume</button> */}
 
-            <a className='mx-auto' href='../../../public/resume.pdf' download={'resume.pdf'} target='_blank'><button className=" btn btn-secondary btn-sm md:btn-wide mb-10 md:mb-auto">Get Resume</button></a>
+            <Link to={'https://drive.google.com/file/d/123kMyVaPKuyxBwP_6BN6KquKZOXtu9iH/view?usp=drive_link'}><button className=" btn btn-secondary btn-sm md:btn-wide mb-10 md:mb-auto">Get Resume</button>
+            </Link>
+
+            {/* <Link to={'https://drive.google.com/drive/folders/1ik6NzE9m3rcf6Y1UWpuoeN0Q_gvfcArs'}><a className='mx-auto' href='../../../public/resume.pdf' download={'resume.pdf'} target='_blank'><button className=" btn btn-secondary btn-sm  mb-10 md:mb-auto">Download Resume</button></a></Link> */}
 
             <h2 className='text-center mb-10 md:mb-2'>Socila Links</h2>
             <div className='flex justify-center items-center gap-3 text-4xl'>
